@@ -1,3 +1,10 @@
+.gradle/
+build/
+eclipse/
+out/
+*.iml
+*.ipr
+*.iws
 *.class
 
 # Package Files #

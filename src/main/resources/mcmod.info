@@ -1,0 +1,19 @@
+[
+{
+  "name": "NEM Version Checker",
+  "modid": "NEM-VersionChecker",
+  "version": "$version",
+  "mcversion": "$mcversion",
+  "authorList": [
+    "GenPage"
+  ],
+  "url": "http://notenoughmods.com",
+  "updateUrl": "",
+  "logoFile": "/nemlogo.png",
+  "updateUrl": "",
+  "description": "This is an update chcker for the NotEnoughMods site!",
+  "credits": "All the voiced contributors on IRC",
+  "screenshots": [],
+  "dependencies": []
+}
+]
