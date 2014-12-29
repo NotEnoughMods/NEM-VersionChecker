@@ -4,16 +4,16 @@ import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.List;
 
-import cpw.mods.fml.client.FMLClientHandler;
-import cpw.mods.fml.common.eventhandler.EventPriority;
-import cpw.mods.fml.common.eventhandler.SubscribeEvent;
-import cpw.mods.fml.common.gameevent.TickEvent.RenderTickEvent;
-import cpw.mods.fml.common.gameevent.TickEvent.Type;
+import net.minecraftforge.fml.client.FMLClientHandler;
+import net.minecraftforge.fml.common.eventhandler.EventPriority;
+import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.gameevent.TickEvent.RenderTickEvent;
+import net.minecraftforge.fml.common.gameevent.TickEvent.Type;
 import net.minecraft.client.gui.GuiScreen;
-import cpw.mods.fml.client.GuiModList;
-import cpw.mods.fml.client.GuiScrollingList;
-import cpw.mods.fml.client.GuiSlotModList;
-import cpw.mods.fml.common.ModContainer;
+import net.minecraftforge.fml.client.GuiModList;
+import net.minecraftforge.fml.client.GuiScrollingList;
+import net.minecraftforge.fml.client.GuiSlotModList;
+import net.minecraftforge.fml.common.ModContainer;
 
 public class NEMEventListener {
 

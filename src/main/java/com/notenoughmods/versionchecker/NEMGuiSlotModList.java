@@ -6,12 +6,12 @@ import java.util.List;
 import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.client.renderer.Tessellator;
 
-import cpw.mods.fml.client.FMLClientHandler;
-import cpw.mods.fml.client.GuiModList;
-import cpw.mods.fml.client.GuiSlotModList;
-import cpw.mods.fml.common.Loader;
-import cpw.mods.fml.common.ModContainer;
-import cpw.mods.fml.common.LoaderState.ModState;
+import net.minecraftforge.fml.client.FMLClientHandler;
+import net.minecraftforge.fml.client.GuiModList;
+import net.minecraftforge.fml.client.GuiSlotModList;
+import net.minecraftforge.fml.common.Loader;
+import net.minecraftforge.fml.common.ModContainer;
+import net.minecraftforge.fml.common.LoaderState.ModState;
 
 public class NEMGuiSlotModList extends GuiSlotModList {
 
@@ -20,7 +20,7 @@ public class NEMGuiSlotModList extends GuiSlotModList {
     
     public NEMGuiSlotModList(GuiModList parent, ArrayList<ModContainer> mods, int listWidth) {
         super(parent, mods, listWidth);
-        this.fontRenderer = FMLClientHandler.instance().getClient().fontRenderer;
+        this.fontRenderer = FMLClientHandler.instance().getClient().fontRendererObj;
         this.mods = mods;
     }
 
