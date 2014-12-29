@@ -22,7 +22,7 @@ group= "com.notenoughmods"
 archivesBaseName = "NEM-VersionChecker"
 
 minecraft {
-    version = "1.7.10-10.13.0.1189"
+    version = "1.8-11.14.0.1278-1.8"
     runDir = "eclipse/assets"
 }
 
